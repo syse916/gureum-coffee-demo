@@ -13,10 +13,16 @@
   <link rel="preload" href="./assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./styles.css">
   <script src="./app.js" defer></script>
-  <!-- QUALIFIED_INSTALL_START
-    Qualified → Settings → App Settings → Setup → JavaScript Snippet의
-    계정 고유 전체 코드를 이 주석 다음, </head> 직전에 넣으세요.
-  QUALIFIED_INSTALL_END -->
+  <!-- QUALIFIED_INSTALL_START -->
+  <!-- Qualified -->
+  <script>
+  (function(w,q){w['QualifiedObject']=q;w[q]=w[q]||function(){
+  (w[q].q=w[q].q||[]).push(arguments)};})(window,'qualified')
+
+  </script>
+  <script async src="https://js.qualified.com/qualified.js?token=wfFik1TntJVvFCvP"></script>
+  <!-- End Qualified -->
+  <!-- QUALIFIED_INSTALL_END -->
 </head>
 <body id="top">
   <a class="skip-link" href="#main">본문 바로가기</a>
